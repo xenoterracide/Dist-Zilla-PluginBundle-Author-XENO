@@ -66,6 +66,7 @@ sub configure {
 	}
 
 	$self->add_plugins( @plugins );
+	return;
 }
 
 1;
