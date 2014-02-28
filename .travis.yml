@@ -14,7 +14,7 @@ before_install:
    - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
 install:
    - cpanm --quiet --notest Dist::Zilla
-   - "dzil authordeps | cpanm --quiet --notest --skip-satisfied || return 0;"
+   - "dzil authordeps | cpanm --quiet --notest --skip-satisfied || true;"
    - "dzil listdeps   | cpanm --verbose --skip-satisfied"
 script:
    - dzil smoke --release --author
