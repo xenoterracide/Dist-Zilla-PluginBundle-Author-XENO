@@ -71,4 +71,13 @@ sub configure {
 
 1;
 
-# ABSTRACT: Dist::Zilla::PluginBundle::Author::XENO
+# ABSTRACT: Author Bundle for Caleb Cushing
+
+=head1 SYNOPSIS
+
+in C<dist.ini>
+
+	[@Author::XENO]
+	install = 0 ; optional, disables InstallRelease
+
+=method configure
