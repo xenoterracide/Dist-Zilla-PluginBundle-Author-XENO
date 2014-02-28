@@ -1,0 +1,5 @@
+/Dist-Zilla-PluginBundle-Author-XENO*
+.build
+*.swp
+*.swo
+/*.conf
