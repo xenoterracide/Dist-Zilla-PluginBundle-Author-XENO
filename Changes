@@ -3,3 +3,4 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
 
 0.001000  2014-02-28
+	- initial release
