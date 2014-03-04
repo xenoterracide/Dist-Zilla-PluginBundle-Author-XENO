@@ -23,7 +23,11 @@ sub configure {
 	my @plugins = (
 		[ PruneFiles => {
 			filenames => [ qw( dist.ini weaver.ini ) ],
-		}], qw(
+		}, ],
+		[ 'Git::NextVersion' => {
+			version_regexp => '^(.+)$',
+			first_version  => 0.001000,
+		}, ], qw(
 		AutoPrereqs
 		ReadmeFromPod
 		OurPkgVersion
