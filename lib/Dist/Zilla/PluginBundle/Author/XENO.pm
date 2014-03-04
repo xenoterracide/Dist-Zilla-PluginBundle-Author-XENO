@@ -80,4 +80,10 @@ in C<dist.ini>
 	[@Author::XENO]
 	install = 0 ; optional, disables InstallRelease
 
+=head1 INSTALL
+
+This will get you everything
+
+   cpanm --with-recommends Dist::Zilla::PluginBundle::Author::XENO
+
 =method configure
