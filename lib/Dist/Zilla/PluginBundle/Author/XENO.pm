@@ -54,8 +54,8 @@ sub configure {
 		Test::CPAN::Changes
 		Test::MinimumVersion
 
-		Git::Remote::Check
 		CheckChangesHasContent
+		Git::Remote::Check
 	));
 
 	push @plugins, (
