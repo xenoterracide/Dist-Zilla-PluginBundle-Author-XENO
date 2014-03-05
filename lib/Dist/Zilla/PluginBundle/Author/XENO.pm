@@ -21,6 +21,9 @@ sub configure {
 	my $self = shift;
 
 	my @plugins = (
+		[ NextRelease => {
+			format => '%-9v %{yyyy-MM-dd}d',
+		}, ],
 		[ MetaNoIndex => {
 			file => 'perlcritic.rc',
 		}, ],
