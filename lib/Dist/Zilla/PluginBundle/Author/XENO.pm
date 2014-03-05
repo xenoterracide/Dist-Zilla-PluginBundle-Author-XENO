@@ -46,10 +46,7 @@ sub configure {
 		Test::Perl::Critic
 
 		ContributorsFromGit
-	));
 
-	if ( $ENV{RELEASE_TESTING} ) {
-		push @plugins, (qw(
 		Test::UnusedVars
 		Test::CPAN::Meta::JSON
 		Test::DistManifest
@@ -59,15 +56,14 @@ sub configure {
 
 		Git::Remote::Check
 		CheckChangesHasContent
-		));
+	));
 
-		push @plugins, (
-			[ 'InstallRelease' => { install_command => "cpanm ." } ],
-		) if $self->install;
+	push @plugins, (
+		[ 'InstallRelease' => { install_command => "cpanm ." } ],
+	) if $self->install;
 
 # must be last
-		push @plugins, ('Clean'),
-	}
+	push @plugins, ('Clean'),
 
 	$self->add_plugins( @plugins );
 	return;
