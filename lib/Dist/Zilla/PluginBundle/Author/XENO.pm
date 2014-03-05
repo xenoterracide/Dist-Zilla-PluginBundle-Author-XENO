@@ -27,6 +27,11 @@ sub configure {
 		[ 'Git::NextVersion' => {
 			version_regexp => '^(.+)$',
 			first_version  => 0.001000,
+		}, ],
+		[ AutoMetaResources => {
+			'homepage' => 'https://metacpan.org/dist/%{dist}',
+			'bugtracker.github' => 'user:xenoterracide',
+			'repository.github' => 'user:xenoterracide',
 		}, ], qw(
 		AutoPrereqs
 		ReadmeFromPod
