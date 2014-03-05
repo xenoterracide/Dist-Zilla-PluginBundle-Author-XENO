@@ -21,6 +21,9 @@ sub configure {
 	my $self = shift;
 
 	my @plugins = (
+		[ MetaNoIndex => {
+			file => 'perlcritic.rc',
+		}, ],
 		[ PruneFiles => {
 			filenames => [ qw( dist.ini weaver.ini ) ],
 		}, ],
