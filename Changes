@@ -2,5 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001001  2014-03-04
+	- don't use RELEASE_TESTING, dzil is inconsistent with application timing
+	- add Git::NextVersion
+
 0.001000  2014-02-28
 	- initial release
