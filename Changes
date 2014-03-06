@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001003  2014-03-05
+	- add InstallRelease as prereq
+
 0.001002  2014-03-05
 	- NextRelease
 	- MetaNoIndex
