@@ -56,8 +56,6 @@ sub configure {
 		Test::Portability
 		Test::Perl::Critic
 
-		ContributorsFromGit
-
 		Test::UnusedVars
 		Test::CPAN::Meta::JSON
 		Test::DistManifest
@@ -67,6 +65,7 @@ sub configure {
 
 		CheckChangesHasContent
 		Git::Remote::Check
+		Git::Contributors
 	));
 
 	push @plugins, (
