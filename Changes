@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001005  2015-02-10
+	- use Dist::Zilla::Plugin::Git::Contributors fix deps
+
 0.001004  2015-02-08
 	- use Dist::Zilla::Plugin::Git::Contributors
 
