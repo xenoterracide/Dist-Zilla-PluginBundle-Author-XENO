@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001006  2015-02-10
+	- add Test::EOL
+
 0.001005  2015-02-10
 	- use Dist::Zilla::Plugin::Git::Contributors fix deps
 
