@@ -40,7 +40,6 @@ sub configure {
 			'repository.github' => 'user:xenoterracide',
 		}, ], qw(
 		AutoPrereqs
-		ReadmeFromPod
 		OurPkgVersion
 		PodWeaver
 
@@ -66,6 +65,8 @@ sub configure {
 		CheckChangesHasContent
 		Git::Remote::Check
 		Git::Contributors
+
+		ReadmeAnyFromPod
 	));
 
 	push @plugins, (
