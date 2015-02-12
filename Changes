@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.001007  2015-02-11
+	- use Dist::Zilla::Plugin::ReadmeAnyFromPod GH #1 (ETHER)
+
 0.001006  2015-02-10
 	- add Test::EOL
 
